@@ -1,3 +1,21 @@
+環境設定
+
+0.gitを追加する場合
+
+git init
+git config --global user.name "engsekine"
+git config --global user.email "engsekine@gmail.com"
+
+1.yarnダウンロード　
+yarn init -y
+
+2.devDependenciesダウンロード
+yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev
+
+3.dependenciesダウンロード
+yarn add react react-dom @types/react @types/react-dom
+
+4.ディレクトリ作成
 //gitignore作成
 touch .gitignore
 
@@ -16,8 +34,6 @@ mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/sty
 //src/js src/ts App.tsx index.tsx ディレクトリ作成
 mkdir src/js && touch src/js/index.js &&　mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
 
-
-まとめたやつ
-touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss && mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
-
-src/html/index.htmlを編集
+全部まとめたやつ
+git init && git config --global user.name "engsekine" && git config --global user.email "engsekine@gmail.com"
+yarn init -y && yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev && yarn add react react-dom @types/react @types/react-dom && touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss && mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init

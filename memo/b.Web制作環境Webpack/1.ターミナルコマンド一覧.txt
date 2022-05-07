@@ -22,3 +22,6 @@ yarn init -y
 yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader --dev
 
 3.dependenciesダウンロード
+
+まとめたやつ
+git init && git config --global user.name "engsekine" && git config --global user.email "engsekine@gmail.com" && yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader --dev

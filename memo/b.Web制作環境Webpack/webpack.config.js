@@ -63,7 +63,7 @@ module.exports = {
     // 実行時にブラウザが自動的に localhost を開く
     devServer: {
         static: {
-            directory: path.join(__dirname, 'dist'),
+            directory: path.join(__dirname, 'dist', 'html'),
         },
         open: true,
         port: 1110,

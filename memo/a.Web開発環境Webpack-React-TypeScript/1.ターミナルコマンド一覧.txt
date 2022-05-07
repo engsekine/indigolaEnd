@@ -9,20 +9,3 @@ https://zenn.dev/hrkmtsmt/articles/93653309e2a13d
 縦一列　ls -1
 キャッシュクリア　yarn cache clean
 
-環境設定
-
-0.gitを追加する場合
-
-git init
-git config --global user.name "engsekine"
-git config --global user.email "engsekine@gmail.com"
-touch .gitignore
-
-1.yarnダウンロード　
-yarn init -y
-
-2.devDependenciesダウンロード
-yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev
-
-3.dependenciesダウンロード
-yarn add react react-dom @types/react @types/react-dom
