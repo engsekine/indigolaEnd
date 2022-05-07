@@ -4,6 +4,8 @@ https://ics.media/entry/12140/
 参考 React TypeScript
 https://zenn.dev/hrkmtsmt/articles/93653309e2a13d
 
+参考
+https://knowledge.sakura.ad.jp/21623/
 基本動作
 
 縦一列　ls -1
