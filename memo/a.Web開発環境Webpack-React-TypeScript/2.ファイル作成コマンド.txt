@@ -18,4 +18,6 @@ mkdir src/js && touch src/js/index.js &&　mkdir src/ts && touch src/ts/index.ts
 
 
 まとめたやつ
-touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss && mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+
+src/html/index.htmlを編集

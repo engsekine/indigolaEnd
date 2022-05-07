@@ -11,6 +11,9 @@ mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/sty
 //src/js ディレクトリ作成
 mkdir src/js && touch src/js/index.js
 
+//htmlファイル
 
 まとめたやつ
-mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss mkdir src/js && touch src/js/index.js
+mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss && mkdir src/js && touch src/js/index.js
+
+src/html/index.htmlを編集
