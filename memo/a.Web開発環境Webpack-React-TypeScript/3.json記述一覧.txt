@@ -12,7 +12,6 @@
         "last 1 safari version"
       ]
     },
-    //必須
     //開発と本場別にする-記述しないとエラーが出る
     "scripts": {
         "dev": "webpack --mode development",

@@ -17,6 +17,20 @@ module.exports = {
         // 出力ファイル名
         filename: '[name].js',
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'src', 'html', 'index.html'), // パスの指定
+            filename: 'html/index.html' // dist/html/以下にindex.htmlをビルド
+        }),
+        /*new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'src', 'html', 'header.html'),
+            filename: 'html/header.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'src', 'html', 'footer.html'),
+            filename: 'html/footer.html'
+        }),*/
+    ],
     module: {
         rules: [
             //TypeScriptファイルの読み込みとコンパイル
@@ -49,12 +63,17 @@ module.exports = {
                     },
                 ],
             },
-
+            // imgファイルの読み込みとコンパイル
             {
                 // 対象となるファイルの拡張子
                 test: /\.(gif|png|jpg|svg)$/,
                 // 画像をBase64として取り込む
                 type: "asset/inline",
+            },
+            // HTMLファイルの読み込みとコンパイル
+            {
+                test: /\.html$/i,
+                loader: 'html-loader',
             },
         ],
     },

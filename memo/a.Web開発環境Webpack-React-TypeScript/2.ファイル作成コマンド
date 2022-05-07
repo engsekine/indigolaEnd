@@ -1,0 +1,21 @@
+//gitignore作成
+touch .gitignore
+
+//webpack.config.js作成
+touch webpack.config.js
+
+//src ディレクトリ作成
+mkdir src
+
+//src/html ディレクトリ作成
+mkdir src/html && touch src/html/index.html
+
+//src/css src/scss ディレクトリ作成
+mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss
+
+//src/js src/ts App.tsx index.tsx ディレクトリ作成
+mkdir src/js && touch src/js/index.js &&　mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+
+
+まとめたやつ
+touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
