@@ -1,0 +1,13 @@
+## .husky/pre-commit
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npm の場合
+npm lint-stage
+# 追記
+npm test
+
+# yarn の場合
+yarn lint-stage
+# 追記
+yarn test

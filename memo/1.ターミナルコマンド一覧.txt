@@ -11,6 +11,22 @@ https://knowledge.sakura.ad.jp/21623/
 sass記法
 https://yumegori.com/dart-sass-method
 
+ESlint
+https://qiita.com/soarflat/items/06377f3b96964964a65d
+
+Prettier
+https://qiita.com/sPrettierhinshin86/items/c8b1f6b22b1bef3074c7
+
+ESlint Prettier
+https://zenn.dev/kohski/articles/eslint-prettier-integration
+https://www.sunapro.com/eslint-with-prettier
+
+.prettierrc
+https://qiita.com/takeshisakuma/items/bbb2cd2f1c65de70e363
+
+husky lint-staged
+https://fwywd.com/tech/husky-setup
+
 縦一列　ls -1
 
 キャッシュクリア　
@@ -18,3 +34,6 @@ yarn cache clean
 
 yarn削除コマンド
 yarn remove
+
+eslintコンフリクト確認
+npx eslint-config-prettier 'src/**/*.{js,jsx,ts,tsx}'
