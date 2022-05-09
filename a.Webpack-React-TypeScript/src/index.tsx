@@ -3,7 +3,7 @@ console.log("./src/index.tsx");
 
 import React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { App } from '../src/App';
+import { App } from './App';
 
 
 const rootElement = document.getElementById('root');
