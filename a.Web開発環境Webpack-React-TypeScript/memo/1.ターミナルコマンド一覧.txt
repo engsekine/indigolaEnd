@@ -1,0 +1,20 @@
+参考
+webpack
+https://ics.media/entry/12140/
+
+React TypeScript
+https://zenn.dev/hrkmtsmt/articles/93653309e2a13d
+
+基本動作
+https://knowledge.sakura.ad.jp/21623/
+
+sass記法
+https://yumegori.com/dart-sass-method
+
+縦一列　ls -1
+
+キャッシュクリア　
+yarn cache clean
+
+yarn削除コマンド
+yarn remove

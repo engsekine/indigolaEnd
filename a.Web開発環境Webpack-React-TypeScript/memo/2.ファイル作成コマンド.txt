@@ -9,13 +9,17 @@ git config --global user.email "engsekine@gmail.com"
 1.yarnダウンロード　
 yarn init -y
 
-2.devDependenciesダウンロード
+2.バージョン設定
+volta pin node
+volta pin yarn
+
+3.devDependenciesダウンロード
 yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev
 
-3.dependenciesダウンロード
+4.dependenciesダウンロード
 yarn add react react-dom @types/react @types/react-dom
 
-4.ディレクトリ作成
+5.ディレクトリ作成
 //gitignore作成
 touch .gitignore
 
@@ -32,8 +36,17 @@ mkdir src/html && touch src/html/index.html
 mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss
 
 //src/js src/ts App.tsx index.tsx ディレクトリ作成
-mkdir src/js && touch src/js/index.js &&　mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+
 
 全部まとめたやつ
+
+a.git管理
 git init && git config --global user.name "engsekine" && git config --global user.email "engsekine@gmail.com"
-yarn init -y && yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev && yarn add react react-dom @types/react @types/react-dom && touch .gitignore && touch webpack.config.js && mkdir src && mkdir src/html && touch src/html/index.html && mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/style.scss && mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
+
+b.バージョン管理
+volta pin node && volta pin yarn
+
+c.セットアップ
+yarn init -y && yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev && yarn add react react-dom @types/react @types/react-dom
+
