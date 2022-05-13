@@ -38,6 +38,8 @@ mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/sty
 //src/js src/ts App.tsx index.tsx ディレクトリ作成
 mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
 
+//stotybook設定
+npx sb init
 
 全部まとめたやつ
 
@@ -53,3 +55,6 @@ yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/
 yarn add jest eslint-plugin-jest eslint eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier eslint-config-prettier husky lint-staged --dev
 
 yarn add eslint-plugin-html --dev
+
+d.stotybook追加
+npx sb init
