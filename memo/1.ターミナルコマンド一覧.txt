@@ -27,7 +27,7 @@ https://qiita.com/takeshisakuma/items/bbb2cd2f1c65de70e363
 husky lint-staged
 https://fwywd.com/tech/husky-setup
 
-縦一列　ls -1s
+縦一列　ls -1
 
 パッケージ更新
 yarn upgrade --latest
