@@ -36,6 +36,8 @@
         "start": "webpack serve && webpack --watch",
         "lint": "eslint --cache --fix src && prettier --write src",
         "prepare": "husky install",
-        "test": "jest"
+        "test": "jest",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
     },
 }

@@ -58,9 +58,7 @@ yarn init -y && volta pin node && volta pin yarn
 c.セットアップ
 yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev && yarn add react react-dom @types/react @types/react-dom
 
-yarn add jest eslint-plugin-jest eslint eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier eslint-config-prettier husky lint-staged --dev
-
-yarn add eslint-plugin-html --dev
+yarn add jest eslint-plugin-jest eslint eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier eslint-config-prettier husky lint-staged eslint-plugin-html --dev
 
 d.stotybook追加
 npx sb init
