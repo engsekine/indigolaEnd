@@ -29,6 +29,9 @@ https://fwywd.com/tech/husky-setup
 
 縦一列　ls -1s
 
+パッケージ更新
+yarn upgrade --latest
+
 キャッシュクリア　
 yarn cache clean
 
