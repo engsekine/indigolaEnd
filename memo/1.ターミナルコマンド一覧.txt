@@ -28,6 +28,8 @@ husky lint-staged
 https://fwywd.com/tech/husky-setup
 
 縦一列　ls -1
+ターミナル内コピー pbcopy
+
 
 パッケージ更新
 yarn upgrade --latest
