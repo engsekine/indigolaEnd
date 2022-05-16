@@ -1,0 +1,35 @@
+React-typescript-microCMSでつくるブログサイト
+
+参考
+
+イメージ
+少し変わったブログサイト、画像をあまり使わず、とても軽いサイト、秘密基地
+
+色
+背景色 #3d4255
+文字色 #eee
+アクセントカラー #d600cb #a478c9
+
+フォント
+
+font-family: 'Sawarabi Gothic', sans-serif;
+font-family: 'Sawarabi Mincho', serif;
+font-size: 1.6rem;
+line-height: 1.8em;
+letter-spacing: 0.05em;
+
+コンテンツ幅
+width: 700px;
+
+headタグ内
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+
+
+header ロゴ、ハンバーガーメニュー
+body ブログ
+
+
+文字列
+横30~50文字がベスト
