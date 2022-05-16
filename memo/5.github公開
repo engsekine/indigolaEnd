@@ -1,7 +1,7 @@
 参考
 https://kubogen.com/web-programing-299/
 
-gh-pagesダウロード
+gh-pagesダウンロード
 yarn add gh-pages --dev
 
 package.json追加
@@ -16,3 +16,5 @@ ssh設定
 https://qiita.com/ucan-lab/items/21d62f1beaa8007c4ca9
 
 https://qiita.com/aki4000/items/4c81bc2747bbd5e96d85
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvGuLE3sSBX2wYyaP/7OW/rAVgGSwnloPNuguH2XKrEJF3XKJ50Cx2ySETQAB9YRhZXgCcFF2wNlUnmf0p0S9KO7xHddfOMUK4i0X26vRsY/5L5rfK41F5EaOdxfhIe0syFvPQnKLemp+8GkweC9M/Na5P1wwtvgGsY4vUW1uvkAo6/4EzH8ExWF9aHCnXGxqzVHdNj1tYmRWJ5cX39alh+GSbPYefbXW6BUlhUH9Ho2TglkLk26hLxxPWLkIxJRDi4zzgPhz9k4jwNdrP0jqBmlqKms+0Fxf9RvCZ5YYPBjqpioGwnjZHpyG0eMp0uGBHXpN0HmzB/BzKNqBl8Mp8xJyGKelQwaUO4evSehJwbmftSsdxCHA7BjKA5qEPGLwz6EBbCzZDpWj+PPBmExM/wCWI5mzbnI09f3veydfVFRk9HOaWfSO+zpBIfX3Lh+QMbwK2VkMXabg5vqvEP6+Byx3a5JfUVx4fS/mGawOX5nk08EzdOD7qMhvIbGkl5VM= hercules1177@daichinoMacBook-Pro.local
