@@ -1,0 +1,12 @@
+参考
+https://kubogen.com/web-programing-299/
+
+gh-pagesダウロード
+yarn add gh-pages --dev
+
+package.json追加
+"scripts": {
+"deploy": "gh-pages -d build"
+}
+
+"homepage": "https://engsekine.github.io/natsuyonomagic/",
