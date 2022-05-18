@@ -6,10 +6,12 @@ yarn add gh-pages @types/gh-pages
 
 package.json追加
 "scripts": {
-"deploy": "gh-pages -d build"
+"deploy": "webpack --mode development && gh-pages -d build"
 }
 
-"homepage": "https://engsekine.github.io/natsuyonomagic/",
+"homepage": "https://engsekine.github.io/natsuyonomagic/"
+
+yarn deploy
 
 ssh設定
 
@@ -19,3 +21,6 @@ https://qiita.com/aki4000/items/4c81bc2747bbd5e96d85
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvGuLE3sSBX2wYyaP/7OW/rAVgGSwnloPNuguH2XKrEJF3XKJ50Cx2ySETQAB9YRhZXgCcFF2wNlUnmf0p0S9KO7xHddfOMUK4i0X26vRsY/5L5rfK41F5EaOdxfhIe0syFvPQnKLemp+8GkweC9M/Na5P1wwtvgGsY4vUW1uvkAo6/4EzH8ExWF9aHCnXGxqzVHdNj1tYmRWJ5cX39alh+GSbPYefbXW6BUlhUH9Ho2TglkLk26hLxxPWLkIxJRDi4zzgPhz9k4jwNdrP0jqBmlqKms+0Fxf9RvCZ5YYPBjqpioGwnjZHpyG0eMp0uGBHXpN0HmzB/BzKNqBl8Mp8xJyGKelQwaUO4evSehJwbmftSsdxCHA7BjKA5qEPGLwz6EBbCzZDpWj+PPBmExM/wCWI5mzbnI09f3veydfVFRk9HOaWfSO+zpBIfX3Lh+QMbwK2VkMXabg5vqvEP6+Byx3a5JfUVx4fS/mGawOX5nk08EzdOD7qMhvIbGkl5VM= hercules1177@daichinoMacBook-Pro.local
 
+コンフリクトした時
+git fetch origin main
+git reset --hard origin/main
