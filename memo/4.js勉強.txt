@@ -1,3 +1,6 @@
+5/18 リダイレクト
+https://lpeg.info/html/javascript_redirect.html
+
 5/18 dom操作
 https://www.wakuwakubank.com/posts/306-javascript-dom/
 
