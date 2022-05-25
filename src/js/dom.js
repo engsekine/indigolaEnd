@@ -10,4 +10,6 @@ const hogeUlLi = document.createElement('li')
 
 //4.タグの中に追加
 hogeUlLi.className = 'test' //class名前追加
+
 hogeUlLi.textContent = 'あいうえお' //中に文字生成
+hogeUlLi.innerText = 'たちつてと' //中に文字生成

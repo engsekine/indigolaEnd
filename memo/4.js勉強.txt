@@ -6,3 +6,6 @@ https://www.wakuwakubank.com/posts/306-javascript-dom/
 
 5/18 url取得
 https://www.javadrive.jp/javascript/webpage/index10.html
+
+5/25 dom操作
+https://qiita.com/kouh/items/dfc14d25ccb4e50afe89
