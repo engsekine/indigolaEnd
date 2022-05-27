@@ -9,3 +9,13 @@ https://www.javadrive.jp/javascript/webpage/index10.html
 
 5/25 dom操作
 https://qiita.com/kouh/items/dfc14d25ccb4e50afe89
+
+5/26 ノードウォーキング
+https://qiita.com/omochiman/items/488663b9e3c9ae0cba91
+https://qiita.com/KDE_SPACE/items/e21bb31dd4d9c162c4a6
+
+5/27 要素幅高さ取得
+
+5/27 classList ボタンでアクション
+https://qiita.com/tomokichi_ruby/items/2460c5902d19b81cace5
+
