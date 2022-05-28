@@ -19,3 +19,12 @@ https://qiita.com/KDE_SPACE/items/e21bb31dd4d9c162c4a6
 5/27 classList ボタンでアクション
 https://qiita.com/tomokichi_ruby/items/2460c5902d19b81cace5
 
+5/28 関数
+https://techplay.jp/column/568
+
+5/28 グローバル変数
+https://zenn.dev/minato_dev/articles/91fe998dc3b5ed
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference
+
+5/28 json yaml 違い
+https://beyondjapan.com/blog/2019/03/lets-start-to-yaml/
