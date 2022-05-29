@@ -28,3 +28,9 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference
 
 5/28 json yaml 違い
 https://beyondjapan.com/blog/2019/03/lets-start-to-yaml/
+
+5/29 アロー関数this
+https://keita-blog.com/programming/arrow-function
+
+5/29　...スプレッド構文
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_syntax
