@@ -34,3 +34,9 @@ https://keita-blog.com/programming/arrow-function
 
 5/29　...スプレッド構文
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+5/29 イベント処理
+https://www.sejuku.net/blog/61631
+
+5/30 addEventListener
+https://www.sejuku.net/blog/57625

@@ -1,8 +1,8 @@
 // 定義varは使わない　基本的にはconstを使う　再代入が必要な時はlet
 // const　再代入不可能
 const a = 'hoge'
-    //b = "hoge2"
-    // log
+//b = "hoge2"
+// log
 console.log(a)
 console.info(a)
 console.warn(a)
