@@ -1,6 +1,6 @@
 //1.要素取得を定義する
 const hogeUlId = document.getElementById('test') //idで要素を取得 定義の時
-const hogeUlId2 = document.querySelector('.test') //class名で要素を取得
+const hogeUlId2 = document.querySelectorAll('.test') //class名で要素を取得
 
 //2.ノードウォーキング 要素を移動するために使う適宜順番を入れ替える 抜かしても良い
 const hoge = hoge.parentNode.nextElementSibling.firstElementChild //hoge.上にある親要素.次にある要素の.最初の要素
@@ -50,5 +50,5 @@ hogeAdd.appendChild(hogeAddLi)
 //b.要素を削除する時
 const hogeRemove = document.getElementById('test')
 if (hogeRemove.parentNode) {
-    hogeRemove.parentNode.removeChild(hogeRemove)
+  hogeRemove.parentNode.removeChild(hogeRemove)
 }
