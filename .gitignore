@@ -25,3 +25,7 @@ yarn-error.log*
 .eslintcache
 
 storybook-static
+
+.prettierignore
+
+/memo
