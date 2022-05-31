@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('load', () => {
   console.log('load')
 })
-//DOMが完成したら発動
+//DOMが完成したら発動 DOM操作で<script></script>をheadタグ内に入れたいときに使える
 window.addEventListener('DOMContentLoaded', () => {
   console.log('DOMContentLoaded')
 })

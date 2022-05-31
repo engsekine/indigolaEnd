@@ -25,6 +25,10 @@ hogeAddLi.setAttribute('value', 'button')
 hogeAddLi.setAttribute('type', 'submit')
 hogeAddLi.setAttribute('name', 'button')
 
+//画像
+hogeAddLi.setAttribute('loading', 'lazy')
+hogeAddLi.setAttribute('loading', 'eager')
+
 hogeAddLi.removeAttribute('href') //削除
 
 //5.タグを追加削除
