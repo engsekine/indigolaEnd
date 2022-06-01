@@ -28,4 +28,4 @@ storybook-static
 
 .prettierignore
 
-/memo
+/memo*
