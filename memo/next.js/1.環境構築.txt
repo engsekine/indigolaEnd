@@ -1,0 +1,14 @@
+next.jsセットアップ
+https://zenn.dev/rabbit/articles/d7175e62dc56a5
+
+pathpidaとは
+https://zenn.dev/hiroko_ino/articles/eslint-prettier-husky-2022
+
+1.next.js typescriptダウンロード
+yarn create next-app --typescript
+
+2.パッケージダウンロード
+yarn add -D eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest eslint-config-google@latest @typescript-eslint/parser@latest
+
+3.pathpidaダウンロード
+yarn add pathpida npm-run-all --dev
