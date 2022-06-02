@@ -1,0 +1,50 @@
+6/1 microCMS webp化
+https://blog.microcms.io/microcms-with-image-editing/
+
+
+<script>
+      const { createClient } = microcms;
+      const client = createClient({
+        serviceDomain: "XXXX", // YOUR_DOMAIN is the XXXX part of XXXX.microcms.io
+        apiKey: "apikey",
+      });
+      client
+        .get({
+          endpoint: "blogs",
+          contentId: "e7k4wb63mh",
+        })
+
+        .then((json) => {
+          document.getElementById("title").innerHTML = json.title;
+          document.getElementById("content").innerHTML = json.content;
+
+          console.log(json);
+          console.log(json.id);
+          console.log(json.createdAt);
+          console.log(json.updatedAt);
+          console.log(json.publishedAt);
+          console.log(json.revisedAt);
+          console.log(json.eyecatch);
+          console.log(json.eyecatch.url);
+          console.log(json.eyecatch.width);
+          console.log(json.eyecatch.height);
+          console.log(json.title);
+          console.log(json.content);
+          console.log(json.category);
+
+          const imgElement = document.getElementById("eyecatch");
+          const imgElementAdd = document.createElement("img");
+          imgElementAdd.srcset =
+            json.eyecatch.url +
+            "?fm=webp" +
+            "1x," +
+            json.eyecatch.url +
+            "?fm=webp" +
+            "?dpr=2 2x,";
+          imgElementAdd.alt = "alt読み込み";
+          imgElementAdd.className = "test";
+          imgElementAdd.setAttribute("loading", "lazy");
+          imgElementAdd.setAttribute("type", "image/webP");
+          imgElement.appendChild(imgElementAdd);
+        });
+    </script>

@@ -27,5 +27,3 @@ yarn-error.log*
 storybook-static
 
 .prettierignore
-
-/memo*
