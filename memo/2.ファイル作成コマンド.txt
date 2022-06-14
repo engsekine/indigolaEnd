@@ -16,7 +16,7 @@ volta pin yarn
 3.devDependenciesダウンロード
 yarn add webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env html-loader html-webpack-plugin style-loader sass sass-loader css-loader autoprefixer postcss postcss-loader typescript ts-loader @babel/preset-react --dev
 //jest eslint
-yarn add jest eslint-plugin-jest eslint eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier eslint-config-prettier husky lint-staged --dev
+yarn add jest eslint-plugin-jest eslint eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier husky lint-staged --dev
 
 4.dependenciesダウンロード
 yarn add react react-dom @types/react @types/react-dom
@@ -41,7 +41,7 @@ mkdir src/css && touch src/css/style.css && mkdir src/scss && touch src/scss/sty
 mkdir src/js && touch src/js/index.js && mkdir src/ts && touch src/ts/index.ts && touch src/App.tsx src/index.tsx && tsc --init
 
 //eslint
-touch .eslintignore && touch .prettierrc && touch eslintrc.json && touch tsconfig.json
+touch .eslintignore && touch .prettierrc && touch eslintrc.json 
 
 6.stotybook設定
 npx sb init
