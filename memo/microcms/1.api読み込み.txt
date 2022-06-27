@@ -1,0 +1,3 @@
+envファイル作成
+yarn add dotenv --dev
+touch .env

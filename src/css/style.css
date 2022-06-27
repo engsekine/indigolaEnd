@@ -1,0 +1,9 @@
+.fade-in {
+	transition-duration: 2s;
+	transition-property: opacity, transform;
+  transform: translate(0, 100px);
+}
+.fadeIn.scroll-in {
+	opacity: 1;
+	transform: translate(0, 0);
+}
