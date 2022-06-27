@@ -16,7 +16,9 @@ yarn add pathpida npm-run-all --dev
 4.path用ディレクトリ作成
 mkdir src/lib
 
-
+5.dotenv .envファイル作成
+yarn add dotenv
+touch .env
 
 microCMSダウンロード
 

@@ -1,3 +1,5 @@
 envファイル作成
 yarn add dotenv --dev
 touch .env
+
+https://qiita.com/ozaki25/items/3e2cf94f29bd0edc1979
