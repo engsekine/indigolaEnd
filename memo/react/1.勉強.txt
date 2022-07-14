@@ -1,0 +1,50 @@
+import React from 'react'はReact 17以降からいらなくなった
+https://qiita.com/Yz_4230/items/ce70927d36f7a6cf619d
+
+
+import ReactDOM from 'react-dom';
+↓
+import { createRoot } from 'react-dom/client';
+18から書き方が変わった createRootとか
+https://chaika.hatenablog.com/entry/2022/05/24/083000
+
+
+import { createRoot } from 'react-dom/client';
+const $ = document.getElementById('app');
+const root = createRoot($);
+root.render(<App />);
+
+const root = createRoot(container);を使うようになった
+https://zenn.dev/nawomat/articles/f8be31b66bfc19
+
+
+class MyDocument extends Document {
+extendsは、classの継承、上書き
+
+
+import {VFC} from 'react'とは現在非推奨でこちらの型が使われる
+
+const Seo: VFC<MetaData> = ({pageTitle, pageDescription, pagePath, pageImg, pageImgWidth, pageImgHeight}) => {
+const Seo = ({pageTitle, pageDescription, pagePath, pageImg, pageImgWidth, pageImgHeight}: MetaData) => {
+
+props使い方
+https://qiita.com/rio_threehouse/items/7632f5a593cf218b9504
+
+
+export default
+https://qiita.com/rena_m/items/b9e79dc88e5c5bc5b245
+
+
+型宣言とはこのようなもの
+interface Blog {
+  blogQuery?: string
+  title?: string
+  publishedAt?: string
+  content?: string
+}
+
+blogにBlog型を移す
+
+export default function BlogId({blog}: {blog: Blog}) {
+  <h1>{blog.title}</h1>
+}
